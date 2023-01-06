@@ -19,12 +19,7 @@ const App = () => {
         setError={setError}
         setData={setData}
       />
-      {data ? (
-        <h2 className="text-center">
-          Los datos ingresados son:
-          <br /> Nombre:({name}) y Password:({password})
-        </h2>
-      ) : null}
+      {data ? (<h2 className="text-center">Los datos ingresados son:<br /> Nombre:({name}) y Password:({password})</h2>):null}
     </div>
   );
 };

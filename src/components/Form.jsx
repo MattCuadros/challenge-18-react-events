@@ -61,9 +61,7 @@ const Form = ({ name, password, setName, setPassword, setError, setData }) => {
           />
         </div>
       </div>
-      {buttonOn ? (
-        <SubmitBtn clase="w-50 btn btn-success my-3" handleSubmit={handleSubmit}/>
-      ) : null}
+      {buttonOn ? (<SubmitBtn clase="w-50 btn btn-success my-3" handleSubmit={handleSubmit}/>) : null}
       <button
         className="w-50 btn btn-secondary my-3 "
         type="reset"
