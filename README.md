@@ -4,8 +4,8 @@
 
 In this Challenge, i used Vite and React for make a Login Form, using hooks like useState in REACT.
 The Form makes two principal validations:
--Empty username input or value is a Number.
--Render Submit Button only with de password "252525".
+- Empty username input or value is a Number.
+- Render Submit Button only with de password "252525".
 
 
 
